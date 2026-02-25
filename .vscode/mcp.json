@@ -1,0 +1,15 @@
+{
+    "servers": {
+      "arm-mcp": {
+        "type": "stdio",
+        "command": "docker",
+        "args": [
+          "run",
+          "--rm",
+          "-i",
+          "-v", "/Users/zaclas01/devFolder/arm-migration-net-demo/:/workspace",
+          "armlimited/arm-mcp:latest"
+        ]
+      }
+    }
+  }
